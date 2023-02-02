@@ -1,0 +1,31 @@
+
+.header{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--dark-grey);
+    padding: 20px;
+}
+
+.light-dark__container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+.light__icon{
+    background-image: url('../../assets/images/noche.png');
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}
+
+.dark__icon{
+    background-image: url('../../assets/images/dom.png');
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+}

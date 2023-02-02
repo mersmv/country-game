@@ -1,0 +1,18 @@
+.countries-info{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.country-info-container{
+    width: 30%;
+    background-color: var(--dark-grey);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+.countries{
+    display: flex;
+    gap: 30px;
+}

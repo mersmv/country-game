@@ -1,0 +1,40 @@
+.form{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container{
+    position: relative;
+}
+.form__input{
+    width: 300px;
+    height: 50px;
+    background-color: var(--dark-grey);
+   border: solid 5px var(--dark-grey);
+    border-radius: 5px;
+    padding-left: 50px;
+}
+
+.magnify-icon{
+    position: absolute;
+    width: 20px;
+    z-index: 2;
+    left: 15px;
+    top: 15px;
+}
+
+.continent-selector{
+    width: 150px;
+    height: 50px;
+    border: solid 5px var(--dark-grey);
+    border-radius: 5px;
+}
+
+.text-info{
+    font-weight: 300;
+}
